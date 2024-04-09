@@ -1,0 +1,162 @@
+
+.header{
+  background-image: url("../src/assets/fondo.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.header-content{
+  height: 65vh;
+  padding: 40px 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.20)
+}
+
+
+.header h3{
+  width: 100%;
+  font-weight: 800; 
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(247, 247, 247);
+  font-size: 25px;
+  text-align: center;
+}
+
+.header h1{
+  width: 100%;
+  margin-top: 50px;
+  white-space: pre-line;
+  font-weight: 400;
+  color: rgb(247, 247, 247);
+  font-size:64px !important;
+  line-height: 1.2;
+  text-align: center;
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.subscribe{
+  background-color: rgb(22, 22, 22);
+  height: 50vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding: 56px;
+}
+
+.subscribe h2 {
+  width: 100%;
+  font-weight: 400;
+  font-size: 38px;
+  text-align: center;
+  margin-bottom: 32px;
+  font-family: 'Playfair Display', Georgia, serif;
+  transition: all 0.15s ease 0s;
+}
+
+.subscribe p {
+  text-align: center;
+  font-family: "Source Sans Pro", arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(164, 164, 164);
+  letter-spacing: normal;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+
+input[type="email"] {
+  width: 300px; /* Ajusta el ancho según tus necesidades */
+  height: 50px; /* Ajusta la altura según tus necesidades */
+  background-color: rgb(22, 22, 22);
+  outline: none;
+  color: rgb(191, 191, 191);
+  padding-top: 16px;
+  padding-left: 16px;
+  border: 1px solid;
+  border-radius: 3px;
+  font-family: "Source Sans Pro", arial, sans-serif;
+  font-size: 16px;
+}
+
+.email-input label {
+  font-family: "Source Sans Pro", arial, sans-serif;
+  transition: all 0.15s ease 0s;
+  margin-top: 15px;
+  margin-left: 10px;
+  z-index: 2;
+  position: absolute;
+  font-size: 16px;
+  color: rgb(191, 191, 191);
+}
+
+.email-input.focused label {
+  transform: scale(0.8); /* Reducción del tamaño cuando está enfocado */
+  position: absolute;
+  margin-top: 5px;
+  color: rgb(87, 87, 87);
+   /* Desplazamiento hacia arriba */
+}
+
+.touch{
+  padding: 20px 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+  color: rgb(0, 0, 0);
+  outline: none;
+  border: 0;
+  transition: all 0.30s ease 0s;
+  font-family: "Source Sans Pro", arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.071em;
+  border-style: none;
+}
+
+.touch:hover{
+  cursor: pointer;
+  background-color: rgb(151, 151, 151);
+
+} 
+
+
+@media (max-width: 767px){
+  .header h1{
+  font-size: 40px !important;
+  }
+}
+
+@media (max-width: 400px){
+.touch{
+
+    padding: 20px 10px;
+    font-size: 14px;
+    letter-spacing: 0.071em;
+    border-style: none;
+  
+}
+
+.subscribe h2{
+  font-size: 30px;
+}
+}
+
+.footer{
+  height: auto;
+  padding: 20px 50px;
+  background-color: rgb(22, 22, 22);
+  color: rgb(169, 169, 169);
+  font-family: 'Source Sans Pro', arial, sans-serif;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+}
