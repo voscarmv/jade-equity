@@ -9,7 +9,7 @@ const Subscribe = () => {
       Contact us!
       </h2>
       <p>
-      <a href='https://calendly.com/todd-calongne/evofi-intro-appointment' className='touch'>Get in touch</a>
+      <a href='mailto:partners@jade-equity.com' className='touch'>Get in touch</a>
       </p>
       
       

@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <section className='footer'>
-Copyright © 2024 EvoFi Network - All Rights Reserved.
+Copyright © 2024 Jade Equity - All Rights Reserved.
     </section>
 
   )
