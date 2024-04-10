@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <section className='header'>
     <div className="header-content">
-    <img src="../src/assets/fondo.webp"></img>
+    <img src="jade.webp" height="200"></img>
     <h1>Connecting you to the future</h1>
     </div>
    
